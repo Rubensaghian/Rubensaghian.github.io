@@ -38,9 +38,6 @@ body {
   background-color: var(--cg-black);
   color: var(--cg-white);
   padding: 0px 0px;
-
-  /* Debug border */
-  /* border: solid red; */
 }
 
 .nav-list {
@@ -49,9 +46,6 @@ body {
   position: relative;
   right: 30px;
   list-style: none;
-
-  /* Debug border */
-  /* border: solid blue; */
 }
 
 .navbar a {
@@ -193,9 +187,16 @@ main {
 
 /* CSS for resume page */
 
-.section {
-  border-top: 1px rgb(255, 255, 255);
-  align-items: center;
+.resum{
+  color: var(--cg-white);
+  font-weight: bold;
+  margin: 0 12px;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.resum:hover {
+  color: var(--cg-blue);
+  text-decoration: underline;
 }
 
 .button {
@@ -213,10 +214,6 @@ main {
 
 .button:hover {
   background-color: var(--cg-blue);
-}
-
-.resume h2 {
-  font-family: Georgia;
 }
 
 /* CSS for contact form */
